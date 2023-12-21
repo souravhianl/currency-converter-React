@@ -1,0 +1,56 @@
+.App {
+  background-color: #FFFFF2;
+  font-family: 'Arial', sans-serif;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff; /* Optional: Adds a different background to the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to the container */
+}
+
+h1 {
+  color: #791E94;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid #DE6449;
+}
+
+input:focus, select:focus, button:focus {
+  outline: none;
+  border-color: #407899;
+}
+
+input, select {
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  background-color: #41D3BD;
+  color: #FFFFF2;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #37bba9;
+}
+
+p {
+  color: #407899;
+  margin-top: 20px;
+}
+
+/* Additional styling can be added here */
